@@ -1,0 +1,27 @@
+.postDetailsWrapper {
+    font-family: Roboto;
+    background-color: #e4f8f2;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.postDetails {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc6c6;
+}
+.postDetailsTitle {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #726d6d;
+    text-transform: uppercase;
+
+}
+.postDetailsBody {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.postDetailsComments {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

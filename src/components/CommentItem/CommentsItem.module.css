@@ -1,0 +1,16 @@
+.commentItem {
+    text-align: left;
+}
+.commentHeader {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-size: 15px;
+    color: #2f561f;
+}
+
+.commentBody {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #868686;
+}
