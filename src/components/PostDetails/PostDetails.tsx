@@ -18,7 +18,7 @@ export function PostDetails() {
     const {data: comments, isLoading: commentsIsLoading, isError: commentsIsError} = useQuery({
         queryKey: [`post/${postId}/comments`],
         queryFn: async () => {
-            const response = await API.get(`posts/${postId}/comments`)
+            const response = await API.get(`comments?postId=${postId}`)
             return await response.data;
         }
     })

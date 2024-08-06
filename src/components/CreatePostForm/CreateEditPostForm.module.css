@@ -1,0 +1,22 @@
+.formIsPending {
+    position: relative;
+}
+/*.formIsPending:after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    background-color: rgba(136, 136, 136, 0.5);*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*}*/
+.formIsError {
+    color: rgba(233,49,46,0.81);
+    font-size: 18px;
+    text-align: center;
+}
+.formIsSuccess {
+    color: #179828;
+    font-size: 18px;
+    text-align: center;
+}
